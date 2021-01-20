@@ -12,7 +12,7 @@ CSS INDEX
    1. Default Slider Settings
 =============================================*/
 #slider-container {
-    height: 650px;
+    height: 950px;
     background: url(../../images/slider/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,7 +175,7 @@ CSS INDEX
 	height:100%;
 	position:relative;
 }
-#slider-container-2 .owl-controls.clickable {
+#slider-container-2 .owl-controls.autoplay {
     display:none !important;
 }
 .video-background {
@@ -191,7 +191,7 @@ CSS INDEX
     z-index: 99;
 }
 .banner-image-wrap {
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-image: url("../../images/slider/1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -215,11 +215,11 @@ CSS INDEX
 .banner-content .banner-breadcrumb.pull-right {
     margin-right: 15px;
 }
-.owl-carousel .owl-controls .owl-dots .owl-dot.active {
+.owl-carousel .owl-controls .owl-controls.autoplay {
   background-color: #ffffff;
   border: 1px solid #ffffff;
 }
-.owl-carousel .owl-controls .owl-dots .owl-dot {
+.owl-carousel .owl-controls.owl-controls.autoplay {
   background-color: #80C6CC;
   display: inline-block;
   height: 3px;
@@ -227,7 +227,7 @@ CSS INDEX
   width: 30px;
   z-index: 999;
 }
-#slider-container .owl-controls {
+#slider-container .owl-controls.owl-controls.autoplay {
   bottom: 80px;
   left: 0;
   position: absolute;
@@ -235,3 +235,4 @@ CSS INDEX
   text-align: center;
     height: 3px;
 }
+
