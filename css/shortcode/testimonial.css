@@ -1,0 +1,48 @@
+/* ----------------------------------
+Template:  Kidschool – Kids & Kindergarten School HTML Template
+
+NOTE: This is Testimonal style file. All Header related style included in this file.
+
+--------------------------------------*/
+.testimonial-area{
+    background: #008C99;
+}
+.single-testimonial{position: relative}
+.single-testimonial:after{
+    position: absolute;
+    content: "\f0b1";
+    font-size: 72px;
+    color: rgba(221, 221, 221, 0.1);
+    left: 0;
+    top: 60%;
+    font-family: "icofont";
+}
+.single-testimonial h2{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 38px;
+}
+.single-testimonial p{
+    color: #fff;
+    margin-bottom: 0;
+}
+.single-testimonial h4{
+    color: #fff;
+    float: right;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 24%;
+    position: relative;
+}
+.single-testimonial h4:before{
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    width: 15px;
+    height: 1px;
+    background: #fff;
+    content: "";
+}
+.testimonial-owl .owl-controls {
+  display: none;
+}

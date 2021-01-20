@@ -1,0 +1,45 @@
+/* -----------------------------------
+Template:  Kidschool – Kids & Kindergarten School HTML Template
+
+NOTE: This is Activity style file. All Header related style included in this file.
+
+--------------------------------------*/
+.single-activity{
+    background: #F1F1F1;
+    padding: 40px 25px 35px;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.single-activity:hover{
+    background: #008C99;
+}
+.single-activity:hover .activity-content h3 a, .single-activity:hover .activity-content p{
+    color: #fff;
+}
+.activity-content h3{
+    margin-bottom: 12px;
+    display: inline-block;
+}
+.activity-content h3 a{
+    font-size: 18px;
+    color: #555555;
+    text-transform: uppercase;
+    font-family: 'Sniglet', cursive;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.single-activity .activity-content h3:hover a, .single-activity .activity-content h3 a:hover{color: #2D4054}
+.activity-content p{
+    font-size: 14px;
+    color: #555555;
+    font-family: 'Sniglet', cursive;
+    margin-bottom: 0px;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.activity-icon{
+    margin-bottom: 8px;
+}

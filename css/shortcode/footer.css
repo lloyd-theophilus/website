@@ -1,0 +1,119 @@
+/* -----------------------------------
+Template: Kidschool – Kids & Kindergarten School HTML Template
+
+NOTE: This is Footer style file. All footer related style included in this file.
+
+--------------------------------------*/
+.footer-area{
+    background-color: #008C99;
+}
+.main-footer{border-bottom: 1px solid #1A7B84}
+.footer-widget h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+    display: block;
+}
+.footer-widget p, .footer-widget ul li a{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.footer-widget ul li{
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.subscribe-form{margin-top: 15px}
+.footer-widget ul li:hover a{
+    color: #ddd;
+    margin-left: 5px;
+}
+.footer-widget input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    height: 22px;
+    font-family: 'Sniglet', cursive;
+    color :#fff;
+    width: 180px;
+    display: inline-block;
+}
+#mc-submit {
+    background: #ffffff none repeat scroll 0 0;
+    color: #008c99;
+    display: table;
+    font-size: 12px;
+    height: 22px;
+    padding: 0 14px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 70px;
+    line-height: 20px;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+#mc-submit:hover{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+#mc-submit i {
+    display: table-cell;
+    vertical-align: middle;
+}
+.footer-widget form{
+    position: relative;
+}
+.footer-icons{float: right}
+.footer-icons ul{
+    margin-left: -6px;
+    margin-right: -6px;
+    padding: 0;
+    list-style: none;
+}
+.footer-icons ul li{
+    display: inline-block;
+    margin: 0 6px;
+}
+.footer-icons ul li i{
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border: 1px solid #fff;
+    vertical-align: middle;
+    display: table-cell;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.footer-icons ul li:hover i, .footer-icons ul li.active i{
+    color: #008C99;
+    background: #fff;
+}
+.footer-bottom{
+    background-color: #008C99;
+    padding: 12px 0 10px;
+}
+.footer-bottom p, .footer-bottom a{
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Sniglet', cursive;
+    text-transform: capitalize;
+}
+.footer-bottom p a:hover{text-decoration: underline}
+#mc-form input::-moz-placeholder {
+  color: #ffffff;
+  opacity: 9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=900)";
+}
+#mc-form input[type="email"]::-webkit-input-placeholder {
+  color: #fff;
+}

@@ -1,0 +1,315 @@
+.header-top {
+  background: #008c99 none repeat scroll 0 0;
+  padding: 16px 0 10px;
+}
+.top-left ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.top-left ul li, .top-right a{
+    display: inline-block;
+    font-family: 'Sniglet', cursive;
+    font-size: 14px;
+    color: #fff;
+    -webkit-transition: all 0.5s ease -0s;
+    -o-transition: all 0.5s ease -0s;
+    transition: all 0.5s ease -0s;
+}
+.top-right a.button {
+  font-size: 14px;
+  line-height: 22px;
+  padding: 0;
+  text-transform: capitalize;
+}
+.top-right a:hover{
+    color: #ddd;
+}
+.teacher-owl .col-md-3 {
+  width: 100%;
+}
+.top-right{float: right}
+.top-left ul li:first-child{margin-right: 25px}
+.top-left ul li i{
+    counter-reset: 14px;
+    color: #fff;
+    margin-right: 10px;
+}
+.main-header{
+    background: #F1F1F1;
+}
+.logo {
+  display: inline-block;
+  padding: 34px 0 28px;
+  text-align: left;
+}
+.menu-area {
+    display: inline-block;
+    float: right;
+}
+.main-menu {
+    display: inline-block;
+    float: right;
+}
+.menu-item {
+    float: left;
+}
+.main-menu ul li {
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.main-menu ul li:before{
+    position: absolute;
+    right: 10px;
+    top: 31px;
+    content: "\eb60";
+    font-family: "icofont";
+    color: #008c99;
+    font-size: 10px;
+    opacity: 0;
+    transform: translateX(20px);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.stick .main-menu ul li::before {
+  top: 18px;
+}
+.stick .main-menu ul li::after {
+  bottom: 18px;
+}
+.main-menu ul li:last-child:before{
+    right: -10px;
+}
+.main-menu ul li:after{
+    position: absolute;
+    left: 10px;
+    bottom: 31px;
+    content: "\eb5c";
+    font-family: "icofont";
+    color: #008c99;
+    font-size: 10px;
+    opacity: 0;
+    transform: translateX(-20px);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.main-menu ul li a {
+    color: #555555;
+    display: block;
+    padding: 44px 22px;
+    text-transform: uppercase;
+    font-family: 'Sniglet', cursive;
+    font-size: 16px;
+}
+.main-menu ul li:last-child a, .stick .main-menu ul li:last-child a {
+    padding-right: 0px;
+}
+/* submenu */
+.main-menu ul li ul.submenu {
+    background-color: #ffffff;
+    left: 0;
+    list-style: outside none none;
+    min-width: 255px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    padding: 15px 10px;
+    position: absolute;
+    top: 100%;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    visibility: hidden;
+    z-index: 1000;
+    box-shadow: 0px 0px 4px 0px #999;
+}
+.main-menu ul li:hover ul.submenu{
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	visibility: visible;
+}
+.main-menu ul li ul.submenu li{display:block}
+.main-menu ul li ul.submenu li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #000000;
+    font-family: 'Sniglet', cursive;
+    font-size: 14px;
+    padding: 12px 15px;
+    text-transform: capitalize;
+}
+.main-menu ul > li > ul.submenu > li:hover > a{color: #008c99}
+.main-menu ul li:hover a {
+    color: #008c99;
+}
+.main-menu ul li:hover::before, .main-menu ul li:hover::after {
+    opacity: 1;
+    transform: translateX(0px);
+}
+.main-menu ul li ul.submenu.megamenu ul li:hover > a{
+    background: #008c99;
+    color:#fff;
+    border-radius: 2px;
+}
+/* megamenu */
+.main-menu ul li ul.submenu.megamenu {
+    white-space: nowrap;
+    width: auto;
+    padding: 15px 20px;
+    right: 0;
+    left: auto;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.main-menu ul li ul.submenu.megamenu > li{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    width: 185px;
+}
+.main-menu ul li ul.submenu.megamenu > li > a{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.main-menu ul li ul.submenu.megamenu > li:hover > a{
+    margin-left: 0px;
+    color: #000;
+}
+.header-area.stick {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+            animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;      
+}
+.as-mainwrapper.wrapper-boxed .header-area.stick {width: 1200px;}
+.stick .main-menu ul li a {padding: 28px 22px}
+.stick .logo{padding: 15px 0}
+.stick .search-btn {padding: 17px 0}
+#particles-js{position: relative}
+#particles-js .banner-content{
+    position: absolute;
+}
+#particles-js {
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+#particles-js.bg-1 {
+    background-image: url('../../images/slider/1.jpg'); 
+}
+.stick .header-top{display: none}
+.modal .modal-header {
+    border: 0 none;
+    min-height: auto;
+    padding: 0;
+}
+.modal {
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 99999
+}
+.modal-dialog {
+	bottom: 0;
+	color: #ffffff;
+	height: 432px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	text-align: left;
+	top: 0;
+	width: 465px;
+}
+.modal-dialog.register{height: 555px}
+.modal-body {padding: 0}
+.form-pop-up-content {background: #ffffff none repeat scroll 0 0;}
+.form-pop-up-content .area-title h2 {
+	border-color: #cccccc;
+	display: inline-block;
+	font-size: 18px;
+}
+.form-pop-up-content .area-title h2 {
+    display: inline-block;
+    font-size: 30px;
+    color: #008c99;
+}
+.form-box > input {
+    background: #ffffff none repeat scroll 0 0;
+    border: none;
+    border-bottom: 1px solid #D4D4D4;
+    color: #959595;
+    font-family: 'Sniglet', cursive;
+    height: 36px;
+    padding: 0 16px;
+}
+.modal-dialog button.close {
+	border-radius: 50%;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 18px;
+	height: 28px;
+	line-height: 13px;
+	margin-top: 0;
+	opacity: 1;
+	position: absolute;
+	right: -13px;
+	text-align: center;
+	text-transform: uppercase;
+	top: -11px;
+	width: 28px;
+}
+.modal-dialog button.close:after {display: none}
+.form-pop-up-content span a {font-family: 'Sniglet', cursive; font-size: 12px;}
+.remember {
+    color: #959595;
+    font-family: 'Sniglet', cursive;
+    font-size: 12px;
+}
+.remember input[type="checkbox"] {
+	height: 14px;
+	margin-right: 6px;
+	position: relative;
+	top: -1px;
+	width: 15px;
+}
+.form-pop-up-content button {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 34px;
+	width: 120px;
+    background: #008C99;
+    text-transform: capitalize;
+}
+.signup-form #form-pop-up {height: 598px; top: 47.2%;}
+.form-pop-up-content button:hover{color: #ddd}
+.mean-container .mean-bar {
+  background: transparent none repeat scroll 0 0;
+  min-height: 0;
+  padding: 0;
+}
+.mean-container a.meanmenu-reveal {
+  border: 1px solid #008C99;
+  color: #008C99;
+  margin-top: -35px;
+  padding: 4px 5px;
+  position: absolute;
+}
+.mean-container a.meanmenu-reveal span {
+  background: #008C99 none repeat scroll 0 0;
+}
+.mean-container .mean-nav ul li:hover a {
+  margin-left: 5px;
+  color: #008C99;
+}
+.mean-container .mean-nav {
+  background: #f1f1f1 none repeat scroll 0 0;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.mean-container .mean-nav ul li a {
+  border-top: 1px solid #ddd;
+  padding: 1em 5%;
+}

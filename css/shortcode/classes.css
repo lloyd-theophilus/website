@@ -1,0 +1,32 @@
+/* ----------------------------------
+Template:  Kidschool – Kids & Kindergarten School HTML Template
+
+NOTE: This is Classes style file. All Header related style included in this file.
+
+--------------------------------------*/
+.class-content{
+    background: #F1F1F1;
+    padding: 20px 50px 18px;    
+}
+.class-content h3{
+    font-size: 18px;
+    color: #555555;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.class-content ul{
+    margin-left: -35px;
+    margin-right: -35px;
+    padding: 0;
+    list-style: none;
+}
+.class-content ul li{
+    display: inline-block;
+    margin: 0 34px;
+    text-transform: capitalize;
+}
+.class-content ul li span{
+    display: block;
+}
+.class-img{line-height: 0; position: relative;}
+.single-class:hover .event-hover{opacity: 1}

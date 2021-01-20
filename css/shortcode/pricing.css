@@ -1,0 +1,75 @@
+/* ----------------------------------
+Template:  Kidschool – Kids & Kindergarten School HTML TemplateKidschool
+
+NOTE: This is Pricing style file. All Header related style included in this file.
+
+--------------------------------------*/
+.pricing-area{
+    background: #F1F1F1;
+}
+.single-table{
+    background: #fff;
+}
+.table-title h3{
+    position: relative;
+}
+.table-title h3::after {
+  background: #4dafb8 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  width: 230px;
+  margin-left: -115px;
+}
+.table-title h3, .table-title h2 span{
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 20px 0 20px;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.table-title h2{
+    font-size: 40px;
+    background: #008C99;
+    padding: 20px 0 18px;
+    color: #fff;
+}
+.table-body{
+    padding-bottom: 30px;
+}
+.table-body ul{
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+.table-body ul li{
+    display: block;
+    font-size: 16px;
+    color: #777777;
+    padding: 6px 0;
+    text-transform: capitalize;
+}
+.table-body a{
+    display: inline-block;
+    background: #008C99;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 4px 25px 4px;
+    margin-top: 26px;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.table-body a:hover{
+    border: 1px solid #008C99;
+    background: transparent;
+    color: #008C99;
+}
+.single-table:hover .table-title h3, .single-table.active .table-title h3 {
+    background: #008C99;
+    color: #fff;
+}

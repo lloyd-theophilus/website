@@ -1,0 +1,106 @@
+/* -----------------------------------
+Template:  Kidschool – Kids & Kindergarten School HTML Template
+
+NOTE: This is Gallery style file. All Header related style included in this file.
+
+--------------------------------------*/
+.project-area{background: #F1F1F1}
+.portfolio-img {
+    position: relative;
+    line-height: 0;
+}
+.portfolio-img:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 140, 153, 0.75);
+    content:"";
+    opacity: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+} 
+.project-area .section-title p {
+  margin-bottom: 30px;
+}
+.portfolio-hover {
+    top: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    line-height: 3.2;
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    opacity: 0;
+    border: 1px solid #fff;
+    vertical-align: middle;
+    text-align: center;
+    margin: -20px auto;
+    z-index: 9;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.portfolio-hover:hover i {
+   color: #008C99;
+}
+.portfolio-hover:hover {
+   border: 1px solid #fff;
+    background: #fff;
+}
+.grid-item:hover .portfolio-hover, .grid-item:hover .portfolio-img:after{
+    opacity: 1;
+}
+.portfolio-hover i{
+    color: #fff;
+    font-size: 22px;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+} 
+.portfolio-menu button {
+    color: #666666;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Sniglet', cursive;
+    font-size: 16px;
+    margin: 0px;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 0 15px;     
+}
+.portfolio-menu button:last-child {
+    margin-right: 0;
+}
+.portfolio-menu button:first-child {
+    margin-left: 0;
+}
+.portfolio-menu button:hover, .portfolio-menu button.active {
+    color: #008c99;
+}
+.grid .grid-item:nth-child(2), .grid .grid-item:nth-child(3) {
+    padding-bottom: 30px;
+}
+.mfp-wrap.mfp-gallery.mfp-close-btn-in.mfp-auto-cursor.mfp-ready {
+  z-index: 99999;
+}
+.load a{
+    background: #008C99;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 25px 4px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.load a:hover{
+    color: #008C99;
+}

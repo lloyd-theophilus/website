@@ -1,0 +1,21 @@
+/* -----------------------------------
+Template:  Kidschool – Kids & Kindergarten School HTML Template
+
+NOTE: This is fun area style file. All Header related style included in this file.
+
+--------------------------------------*/
+.fun-area{
+    background: #008C99;
+}
+.fun-img{margin-bottom: 12px;}
+.fun-content h3.counter, .fun-content h5{
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Sniglet', cursive;
+    margin-bottom: 15px;
+}
+.fun-content h5{
+    font-size: 18px;
+    margin-bottom: 0px;
+    text-transform: uppercase
+}

@@ -1,0 +1,82 @@
+/* ----------------------------------
+Template:  Kidschool – Kids & Kindergarten School HTML Template
+
+NOTE: This is About style file. All Header related style included in this file.
+--------------------------------------*/
+.about-content h2{
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.about-content h2:after{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    content: "";
+    background: url(../../images/icon/2.png);
+    background-repeat: no-repeat;
+    width: 69px;
+    height: 1px;
+}
+.about-content p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.about-owl.owl-carousel .owl-item img {
+    margin: 0 auto;
+    width: auto;
+}
+.about-content .load a {
+  margin-top: 30px;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.about-content .load a:hover{
+    border: 1px solid #008C99;
+    color: #008C99;
+    background: transparent;
+}
+.about-owl .owl-controls {
+  color: #606060;
+  position: absolute;
+  text-align: center;
+  top: 48%;
+  width: 100%;
+}
+.about-owl.owl-theme .owl-controls .owl-buttons div {
+  color: #606060;
+  display: inline-table;
+  font-size: 36px;
+  padding: 0;
+  text-align: center;
+}
+.about-owl .owl-nav div i {
+    color: #606060;
+    display: table-cell;
+    font-size: 36px;
+    vertical-align: middle;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.about-owl .owl-nav div i:hover {
+    color: #008C99;
+}
+.about-owl .owl-controls .owl-prev {
+    left: 45px;
+    position: absolute;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.about-owl .owl-controls .owl-next{
+    right: 45px;
+    position: absolute;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.about-owl.owl-carousel .owl-controls .owl-dots .owl-dot.active {display: none}

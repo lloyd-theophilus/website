@@ -1,0 +1,26 @@
+/* -----------------------------------
+Template:  Kidschool – Kids & Kindergarten School HTML Template
+
+NOTE: This is Contact style file. All Header related style included in this file.
+
+--------------------------------------*/
+.contact-area{
+    background: #F1F1F1;
+}
+.contact-icon{margin-bottom: 15px}
+.contact-info h5{
+    text-transform: capitalize;
+    font-size: 16px;
+     margin-bottom: 5px;
+}
+.contact-info p{
+    line-height: 22px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
