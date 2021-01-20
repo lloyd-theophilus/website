@@ -17,7 +17,6 @@ CSS INDEX
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
-    
 }
 #slider-container div{height: 100%}
 .owl-item{width: 34%}
@@ -37,8 +36,7 @@ CSS INDEX
 }
 .single-slide {
 	position: relative;
-    width: 100%;
-    animation: 12s infinite;
+	width: 100%;
 }
 .single-slide > a {
 	display: block;
@@ -123,7 +121,7 @@ CSS INDEX
 }
 /* Default Slider Animations */
 .owl-item.active .slider-img img{
-    animation: 4.0s ease-in-out 2.2s normal both 100 running bounceInUp;
+    animation: 8.9s ease-in-out 1.3s normal both 100 running bounceInUp;
 }
 .owl-item.active .slide-content h3{
        animation-delay: 1.3s;
