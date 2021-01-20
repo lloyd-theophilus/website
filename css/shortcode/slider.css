@@ -227,12 +227,13 @@ CSS INDEX
   width: 30px;
   z-index: 999;
 }
-#slider-container .owl-controls.owl-controls.autoplay {
+#slider-container .owl-controls {
   bottom: 80px;
   left: 0;
   position: absolute;
   right: 0;
   text-align: center;
     height: 3px;
+    animation: infinite;
 }
 
